@@ -31,4 +31,5 @@ const addTodoAction = {
 }
 
 todo = todoReducer(todo, addTodoAction);
+
 console.log(todo);
